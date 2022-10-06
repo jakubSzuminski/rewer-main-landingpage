@@ -5,7 +5,6 @@ yearEl.textContent = currentYear;
 
 //SMOOTH SCROLLING
 const allLinks = document.querySelectorAll(".inpage:link");
-console.log(allLinks);
 
 allLinks.forEach(function(link) {
     link.addEventListener('click', function(e) {
